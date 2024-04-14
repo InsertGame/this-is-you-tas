@@ -565,7 +565,8 @@ if (document.domain === "localhost") window.DEBUG = c2
 
 cleanObjects()
 
-c2.loadJS(["main", "player_tick", "obj_start", "object_tick", "events"], function(){
+c2.loadJS(["main", "player_tick", "obj_start", "object_tick", "events", "tas"], function(){
 	c2.finishLoading()
 	c2.scripts.main()
+	c2.scripts.tas()
 })
