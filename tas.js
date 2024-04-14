@@ -8,4 +8,4 @@ function notify(text, time) {
 	setTimeout(()=>notification.remove(), time*1000)
 }
 
-notify("TAS loaded", 3")
+notify("TAS loaded", 3)
